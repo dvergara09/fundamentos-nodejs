@@ -1,0 +1,18 @@
+{
+  "name": "fundamentos-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entorno.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "entorno": "nodemon ./entorno.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
