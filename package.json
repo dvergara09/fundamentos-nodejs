@@ -20,7 +20,8 @@
     "error": "nodemon ./modules/errores.js",
     "child": "nodemon ./modules/procesoHijo.js",
     "c++" : "nodemon ./modules/natives/index.js",
-    "http": "nodemon ./modules/http.js"
+    "http": "nodemon ./modules/http.js",
+    "os": "nodemon ./modules/os.js"
   },
   "keywords": [],
   "author": "",
