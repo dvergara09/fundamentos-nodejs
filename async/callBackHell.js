@@ -19,13 +19,32 @@ function bye(name, otherCallback) {
   });
 }
 
+function conversation(name, veces, callback) {
+  if (veces > 0) {
+    talk(function () {
+      conversation(name, --veces, callback);
+    });
+  } else {
+    bye(name, callback);
+  }
+}
+
 //...
 
-console.log('Init process');
+/* console.log('Init process');
 hello('Daniel', function (name) {
   talk(function () {
-    bye(name, function () {
-      console.log('Finish Process...');
+    talk(function () {
+      bye(name, function () {
+        console.log('Finish Process...');
+      });
     });
+  });
+}); */
+
+console.log('Init');
+hello('Daniel', function (name) {
+  conversation(name, 3, function () {
+    console.log('Finish');
   });
 });
