@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "entorno.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "nodemon": "^2.0.6"
   },
@@ -14,13 +13,13 @@
     "callback": "nodemon ./async/callback.js",
     "hell": "nodemon ./async/callBackHell.js",
     "promise": "nodemon ./async/promise.js",
-    "async" : "nodemon ./async/async.js",
+    "async": "nodemon ./async/async.js",
     "global": "nodemon ./modules/globals.js",
     "fs": "nodemon ./modules/fs.js",
     "console": "nodemon ./modules/console.js",
     "error": "nodemon ./modules/errores.js",
-    "child": "nodemon ./modules/procesoHijo.js"
-
+    "child": "nodemon ./modules/procesoHijo.js",
+    "c++" : "nodemon ./modules/natives/index.js"
   },
   "keywords": [],
   "author": "",
