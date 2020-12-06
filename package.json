@@ -15,7 +15,8 @@
     "hell": "nodemon ./async/callBackHell.js",
     "promise": "nodemon ./async/promise.js",
     "async" : "nodemon ./async/async.js",
-    "global": "nodemon ./modules/globals.js"
+    "global": "nodemon ./modules/globals.js",
+    "fs": "nodemon ./modules/fs.js"
 
   },
   "keywords": [],
