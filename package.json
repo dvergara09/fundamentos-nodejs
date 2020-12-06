@@ -18,7 +18,8 @@
     "global": "nodemon ./modules/globals.js",
     "fs": "nodemon ./modules/fs.js",
     "console": "nodemon ./modules/console.js",
-    "error": "nodemon ./modules/errores.js"
+    "error": "nodemon ./modules/errores.js",
+    "child": "nodemon ./modules/procesoHijo.js"
 
   },
   "keywords": [],
