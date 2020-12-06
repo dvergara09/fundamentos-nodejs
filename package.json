@@ -19,7 +19,8 @@
     "console": "nodemon ./modules/console.js",
     "error": "nodemon ./modules/errores.js",
     "child": "nodemon ./modules/procesoHijo.js",
-    "c++" : "nodemon ./modules/natives/index.js"
+    "c++" : "nodemon ./modules/natives/index.js",
+    "http": "nodemon ./modules/http.js"
   },
   "keywords": [],
   "author": "",
