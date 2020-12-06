@@ -1,5 +1,3 @@
-const { resolve } = require('path');
-
 function hello(name) {
   return new Promise(function (resolve, reject) {
     setTimeout(function () {
