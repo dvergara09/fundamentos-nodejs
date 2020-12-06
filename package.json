@@ -12,7 +12,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "entorno": "nodemon ./concepts/entorno.js",
     "callback": "nodemon ./async/callback.js",
-    "hell": "nodemon ./async/callBackHell.js"
+    "hell": "nodemon ./async/callBackHell.js",
+    "promise": "nodemon ./async/promise.js"
   },
   "keywords": [],
   "author": "",
