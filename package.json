@@ -13,7 +13,8 @@
     "entorno": "nodemon ./concepts/entorno.js",
     "callback": "nodemon ./async/callback.js",
     "hell": "nodemon ./async/callBackHell.js",
-    "promise": "nodemon ./async/promise.js"
+    "promise": "nodemon ./async/promise.js",
+    "async" : "nodemon ./async/async.js"
   },
   "keywords": [],
   "author": "",
