@@ -1,4 +1,5 @@
 const fs = require('fs');
+const { dirname } = require('path');
 
 function leer(ruta, callback) {
   fs.readFile(ruta, (err, data) => {
@@ -17,5 +18,10 @@ function escribir(ruta, contenido, callback) {
   });
 }
 
+function borrar(ruta, callback) {
+  fs.unlink(ruta, callback);
+}
+
 //leer(__dirname + '/archivo.txt', console.log);
-escribir(__dirname + '/archivo1.txt', 'Soy un archivo nuevo', console.log);
+//escribir(__dirname + '/archivo1.txt', 'Soy un archivo nuevo', console.log);
+//borrar(__dirname + '/archivo.txt', console.log);
