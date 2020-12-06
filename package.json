@@ -14,7 +14,9 @@
     "callback": "nodemon ./async/callback.js",
     "hell": "nodemon ./async/callBackHell.js",
     "promise": "nodemon ./async/promise.js",
-    "async" : "nodemon ./async/async.js"
+    "async" : "nodemon ./async/async.js",
+    "global": "nodemon ./modules/globals.js"
+
   },
   "keywords": [],
   "author": "",
