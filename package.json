@@ -10,7 +10,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "entorno": "nodemon ./entorno.js"
+    "entorno": "nodemon ./concepts/entorno.js",
+    "callback": "nodemon ./async/callback.js"
   },
   "keywords": [],
   "author": "",
