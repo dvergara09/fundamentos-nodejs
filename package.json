@@ -16,7 +16,8 @@
     "promise": "nodemon ./async/promise.js",
     "async" : "nodemon ./async/async.js",
     "global": "nodemon ./modules/globals.js",
-    "fs": "nodemon ./modules/fs.js"
+    "fs": "nodemon ./modules/fs.js",
+    "console": "nodemon ./modules/console.js"
 
   },
   "keywords": [],
