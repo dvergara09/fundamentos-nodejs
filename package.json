@@ -5,7 +5,10 @@
   "main": "entorno.js",
   "type": "module",
   "dependencies": {
-    "is-odd": "^3.0.1"
+    "bcrypt": "^5.0.0",
+    "is-odd": "^3.0.1",
+    "moment": "^2.29.1",
+    "sharp": "^0.27.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
@@ -27,7 +30,10 @@
     "os": "nodemon ./modules/os.js",
     "isOdd": "nodemon ./paquetes/index.js",
     "module": "nodemon ./paquetes/modules/index.js",
-    "module2": "nodemon ./paquetes/modules/ES6/index.js"
+    "module2": "nodemon ./paquetes/modules/ES6/index.js",
+    "bcrypt":"nodemon ./utils/bcrypt.js",
+    "moment": "nodemon ./utils/moment.js",
+    "sharp" : "nodemon ./utils/sharp.js"
   },
   "keywords": [],
   "author": "",
