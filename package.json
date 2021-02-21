@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "entorno.js",
+  "type": "module",
   "dependencies": {
     "is-odd": "^3.0.1"
   },
@@ -24,7 +25,9 @@
     "c++": "nodemon ./modules/natives/index.js",
     "http": "nodemon ./modules/http.js",
     "os": "nodemon ./modules/os.js",
-    "isOdd": "nodemon ./paquetes/index.js"
+    "isOdd": "nodemon ./paquetes/index.js",
+    "module": "nodemon ./paquetes/modules/index.js",
+    "module2": "nodemon ./paquetes/modules/ES6/index.js"
   },
   "keywords": [],
   "author": "",
