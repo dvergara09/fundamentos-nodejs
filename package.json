@@ -33,7 +33,8 @@
     "module2": "nodemon ./paquetes/modules/ES6/index.js",
     "bcrypt":"nodemon ./utils/bcrypt.js",
     "moment": "nodemon ./utils/moment.js",
-    "sharp" : "nodemon ./utils/sharp.js"
+    "sharp" : "nodemon ./utils/sharp.js",
+    "buffer": "nodemon ./memoria/buffer.js"
   },
   "keywords": [],
   "author": "",
