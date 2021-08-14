@@ -34,7 +34,8 @@
     "moment": "nodemon ./utils/moment.js",
     "sharp" : "nodemon ./utils/sharp.js",
     "buffer": "nodemon ./memoria/buffer.js",
-    "stream": "nodemon ./memoria/stream.js"
+    "stream": "nodemon ./memoria/stream.js",
+    "benchmarking": "nodemon ./trucos/benchmarking.js"
   },
   "keywords": [],
   "author": "",
